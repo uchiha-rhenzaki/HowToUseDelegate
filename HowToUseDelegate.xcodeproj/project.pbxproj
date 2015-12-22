@@ -15,6 +15,7 @@
 		B738237E1C29045900E20155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B738237C1C29045900E20155 /* LaunchScreen.storyboard */; };
 		B73823891C29045900E20155 /* HowToUseDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73823881C29045900E20155 /* HowToUseDelegateTests.swift */; };
 		B73823941C29045900E20155 /* HowToUseDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73823931C29045900E20155 /* HowToUseDelegateUITests.swift */; };
+		B73823DF1C2904F300E20155 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73823DE1C2904F300E20155 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B738238F1C29045900E20155 /* HowToUseDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToUseDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73823931C29045900E20155 /* HowToUseDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseDelegateUITests.swift; sourceTree = "<group>"; };
 		B73823951C29045900E20155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73823DE1C2904F300E20155 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				B73823701C29045900E20155 /* AppDelegate.swift */,
 				B73823721C29045900E20155 /* ViewController.swift */,
+				B73823DE1C2904F300E20155 /* SecondViewController.swift */,
 				B73823741C29045900E20155 /* Main.storyboard */,
 				B738237A1C29045900E20155 /* Assets.xcassets */,
 				B738237C1C29045900E20155 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73823DF1C2904F300E20155 /* SecondViewController.swift in Sources */,
 				B73823791C29045900E20155 /* HowToUseDelegate.xcdatamodeld in Sources */,
 				B73823731C29045900E20155 /* ViewController.swift in Sources */,
 				B73823711C29045900E20155 /* AppDelegate.swift in Sources */,
@@ -488,6 +492,7 @@
 				B738239A1C29045900E20155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B738239B1C29045900E20155 /* Build configuration list for PBXNativeTarget "HowToUseDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				B738239D1C29045900E20155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B738239E1C29045900E20155 /* Build configuration list for PBXNativeTarget "HowToUseDelegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				B73823A01C29045900E20155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

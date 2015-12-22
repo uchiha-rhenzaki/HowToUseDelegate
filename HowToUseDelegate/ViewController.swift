@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AddContactViewControllerDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,17 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func didFetchContacts(name : String) {
+        print("i'm here" + name)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let addContactViewController = segue.destinationViewController as! SecondViewController
+        addContactViewController.delegate = self
+         
     }
 
 
